@@ -1,0 +1,33 @@
+.optitle { padding:10px 0; border-bottom:2px solid #666666; }
+.optitle .title { line-height:30px; font-size:24px; font-weight:bold; color:#666666; }
+.optitle em { float:right; }
+.clearfix:after { content:"."; display:block; visibility:hidden; height:0; overflow:hidden; clear:both; }
+.clearfix { _zoom:1; }
+
+.input-button {
+    border:0;
+    font-size:14px;
+    font-weight:bold;
+    padding:6px 16px;
+    background:url(/images/button_bg.png) no-repeat;
+    color:#fff;
+    overflow:visible;
+}
+
+.content { width:590px; padding:10px; margin:10px 0; background:#92d1f4; }
+.content table { width:100%; background:#fff; }
+.content table td { padding:2px 4px; }
+.content table.list td { border:1px solid #666; text-align:center; }
+.content table.box { border:1px solid #666; }
+.content table.box td { font-size:16px; padding:10px 0; }
+.content table.box td input.text { border:1px solid #7f9db9; padding:2px 5px; width:250px; }
+.content table.box td textarea { border:1px solid #7f9db9; padding:2px 5px; width:350px; height:80px; }
+.content table.box td.field { text-align:right; width:120px; }
+
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image:url(/images/fg_land.jpg)
+}
